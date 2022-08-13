@@ -1,0 +1,32 @@
+.outerFrameDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  background-color: #fff;
+  width: 900px;
+  height: 600px;
+}
+.videoContainerIframe,
+.videoPopupDiv {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 860px;
+  height: 560px;
+}
+.videoPopupDiv {
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.06);
+  width: 900px;
+  height: 600px;
+}
+.matterhornPopupDiv {
+  position: relative;
+  width: 900px;
+  height: 600px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}
